@@ -57,7 +57,7 @@
  }
  .banners{
     max-width: 520px;
-    margin: 0 auto;
+    align-items: center;
  }
 .banner-title{
     color: whitesmoke;
@@ -94,6 +94,7 @@
 }
 .container-img{
     position: relative;
+    align-items: center;
 
 }
 .button1{
@@ -137,8 +138,57 @@
     font-size: .75rem;
     color: #FFFFFFA6;
 }
-
  /* banner section style end */
+ /* change habits section style start */
+ .section1{
+    max-width: 1108px;
+    margin: 0 auto;
+ }
+.habits-containr{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 90px;
+    align-items: center;
+}
+.habits-containr h2{
+    font-weight: 900;
+    font-size: 3rem;
+
+}
+.habits-containr p{
+    color: rgb(150, 145, 145);
+}
+.card-container{
+    display: flex;
+    margin-top: 70px;
+}
+.card{
+    align-items: center;
+    text-align: center;
+}
+.card img{
+    border-radius: 100%;
+}
+.card h3{
+    color: #FFFFFF;
+}
+.card p{
+    color:#FFFFFF80;
+    align-items: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+ /*change habits section style end  */
   /* responsive small device */
   @media screen and (max-width:576px) {
     .content{
@@ -164,6 +214,22 @@
     .button2{
         right: 50%;
     }
+    .card-container{
+        flex-direction: column;
+    }
+    .card-title{
+        text-align: center;
+        
+    }
+    .section1{
+        margin-left: 20px;
+    }
+    .banner{
+        margin-left: 20px;
+    }
+    
+    
+    
     
   }
   
