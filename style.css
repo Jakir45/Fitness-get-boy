@@ -49,6 +49,96 @@
     display: none;
     color: whitesmoke;
  }
+ /* banner section style start */
+ .banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .banners{
+    max-width: 520px;
+    margin: 0 auto;
+ }
+.banner-title{
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 5rem;
+    max-width: 520px;
+}
+.banner-description{
+    color: rgb(150, 145, 145);
+}
+.bttn{
+    display: flex;
+}
+.btn-primary{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color:#E6533C ;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-right: 25px;
+}
+.btn2{
+    font-weight: 600px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-right: 25px;
+    border: 1px solid rgb(219, 212, 204);
+}
+.container-img{
+    position: relative;
+
+}
+.button1{
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    background-color: #FFFFFF1A;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+}
+.button2{
+    position: absolute;
+    top: 70%;
+    right: 80%;
+    background-color: #ffffff1a;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.number{
+    font-weight: 900;
+    font-size: 2.5rem;
+    color:#FFFFFF ;
+    
+}
+.number2{
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+.red{
+    width: 10px;
+    height: 10px;
+    background-color: #E6533C;
+    border-radius: 50%;
+}
+.video{
+    font-weight: 400;
+    font-size: .75rem;
+    color: #FFFFFFA6;
+}
+
+ /* banner section style end */
   /* responsive small device */
   @media screen and (max-width:576px) {
     .content{
@@ -64,5 +154,16 @@
         display: block;
         font-size: 1.5rem;
     }
+    .banner{
+        flex-direction: column;
+    }
+    .bttn{
+        flex-direction: row;
+        align-items: center;
+    }
+    .button2{
+        right: 50%;
+    }
     
   }
+  
