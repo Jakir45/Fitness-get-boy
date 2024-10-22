@@ -178,17 +178,130 @@
     align-items: center;
     
 }
-
-
-
-
-
-
-
-
-
-
  /*change habits section style end  */
+ /* section 2222 stle start  */
+ .section2{
+    max-width: 1108px;
+    margin: 0 auto;
+    background-color: #3b3939;
+    border-radius: 10px;
+    margin-top: 80px;
+ }
+ .run-cintainer{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    justify-content: space-between;
+ }
+ .run-titles{
+    gap: 0;
+ }
+ .run img{
+    max-width: 370px;
+    border-radius: 15px;
+
+ }
+ .run-title{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #FFFFFF;
+ }
+ /* section 2 style end */
+
+/* input section style */
+.input{
+    background-color: #3b3939;
+    margin: 0 ;
+}
+.input-container{
+    max-width: 1108px;
+    margin: 0 auto;
+}
+.input-name{
+    font-weight: 900;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    color: #FFFFFF;
+}
+td{
+    color:  rgb(150, 145, 145);
+}
+th,td{
+    border: 1px solid #706f6f;
+    padding: 10PX 30PX;    
+}
+.input-title{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fffdfd80;
+}
+/* input section style */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* footer section style */
+ footer{
+    background-color: #3b3939;
+    margin: 0 ;
+ }
+ .footer-container{
+    max-width: 1108px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    margin-top: 90px;
+ }
+ .footer-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+ }
+ .banner-description{
+    max-width: 440px;
+ }
+ /* footer section style */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* responsive small device */
   @media screen and (max-width:576px) {
     .content{
@@ -211,6 +324,10 @@
         flex-direction: row;
         align-items: center;
     }
+    .button1{
+        top: 35%;
+        left: 35%;
+    }
     .button2{
         right: 50%;
     }
@@ -227,7 +344,18 @@
     .banner{
         margin-left: 20px;
     }
+    .run-cintainer{
+        flex-direction: column;
+        gap: 20px;
     
+    }
+    .runs{
+        width: 100%;
+        
+    }.footer-container{
+        flex-direction: column;
+        margin-left: 20px;
+    }
     
     
     
