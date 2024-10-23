@@ -449,20 +449,15 @@ th,td{
     .card-container{
         flex-direction: column;
     }
-    .card-title{
-        text-align: center;
-        
-    }
-    .section1{
-        margin-left: 20px;
-    }
-    .banner{
-        margin-left: 20px;
+    .inputts{
+        width: 100%;
     }
     .run-cintainer{
         flex-direction: column;
         gap: 20px;
-    
+    }
+    .inputs{
+        flex-direction: column;
     }
     .runs{
         width: 100%;
@@ -487,6 +482,7 @@ th,td{
     .teams{
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
+        padding-right: 20px;
     }
     .image-container img {
         width: 100%;
